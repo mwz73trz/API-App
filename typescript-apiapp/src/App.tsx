@@ -18,7 +18,7 @@ function App() {
     <>
       <Header />
       <div className="container">
-        <ListNotes notes={notes} />
+        <ListNotes notes={notes} setNotes={setNotes} />
       </div>
     </>
   );
